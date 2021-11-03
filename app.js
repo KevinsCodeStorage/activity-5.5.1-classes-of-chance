@@ -9,10 +9,10 @@ class Casino {
         }
         else{
             console.log("You won " + betAmount*(this.timesPlayed +1)+ " dollars from " + this.name + "!");
-            this.timesPlayed++;
+          
         }
-    }
-
+        this.timesPlayed++;
+    }  
 };
 
 // TESTS
